@@ -1,6 +1,8 @@
 /// This heuristic finds with high frequency of success the longest path in relatively sparse and dense graphs.
 /// The algorithm tries to extend a path until it becomes maximal. I also applied different tricks to improve the overall result returned by the algorithm.
 
+/// Implementation for the O(|V| |E|) algorithm.
+
 /// Relatively sparse -> O(|V| log |V|) edges
 /// Dense -> O(|V|^2) edges
 
